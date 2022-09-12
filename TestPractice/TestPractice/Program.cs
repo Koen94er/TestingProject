@@ -23,14 +23,36 @@ namespace RectangleApp
             Console.WriteLine("Area: {0}", GetArea());
         }
     }
-    public class ExecuteRectangle
+    //public class ExecuteRectangle
+    //{
+    //    static voi(string[] args)
+    //    {
+    //        //test
+    //        Rectangle r = new Rectangle();
+    //        r.AcceptDetail();
+    //        r.Display();
+    //        Console.ReadLine();
+        //}
+    public class Program123
     {
         static void Main(string[] args)
         {
-            //test
-            Rectangle r = new Rectangle();
-            r.AcceptDetail();
-            r.Display();
+
+            /* 局部变量定义 */
+            int a = 100;
+
+            /* 检查布尔条件 */
+            if (a < 20)
+            {
+                /* 如果条件为真，则输出下面的语句 */
+                Console.WriteLine("a 小于 20");
+            }
+            else
+            {
+                /* 如果条件为假，则输出下面的语句 */
+                Console.WriteLine("a 大于 20");
+            }
+            Console.WriteLine("a 的值是 {0}", a);
             Console.ReadLine();
         }
     }
