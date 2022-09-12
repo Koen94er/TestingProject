@@ -27,6 +27,7 @@ namespace RectangleApp
     {
         static void Main(string[] args)
         {
+            //test
             Rectangle r = new Rectangle();
             r.AcceptDetail();
             r.Display();
